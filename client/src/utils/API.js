@@ -4,11 +4,11 @@ import axios from "axios";
 
 export default {
   // Gets all books
-  searchBooks: function(Book) {
+  searchBooks: function(book) {
     return axios.get("https://www.googleapis.com/books/v1/volumes?q="+book);
   },
   // Gets the book with the given id
-  findBook: function(bookData) {
+  getBooks: function(bookData) {
     return axios.get("/api/books/" );
   },
   // Deletes the book with the given id
