@@ -1,3 +1,5 @@
+// This is from the book sample exercise in MERN: - JSG
+
 import React, { useEffect, useState } from "react";
 import Jumbotron from "../components/Jumbotron";
 import DeleteBtn from "../components/DeleteBtn";

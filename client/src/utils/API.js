@@ -1,13 +1,15 @@
+// used the code example from MERN 21 - 05 for starter code
+
 import axios from "axios";
 
 export default {
   // Gets all books
-  getBooks: function() {
-    return axios.get("/api/books");
+  searchBooks: function(Book) {
+    return axios.get("https://www.googleapis.com/books/v1/volumes?q="+book);
   },
   // Gets the book with the given id
-  getBook: function(id) {
-    return axios.get("/api/books/" + id);
+  findBook: function(bookData) {
+    return axios.get("/api/books/" );
   },
   // Deletes the book with the given id
   deleteBook: function(id) {
