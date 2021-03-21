@@ -19,8 +19,10 @@ class Search extends Component {
 
 handleInputChange = (event) => {
     event.preventDefault();
-    const {name, value } = event.target;
-    this.state({ [name] : value })
+    const { name, value } = event.target;
+    //updated to this.setState wasnt allowing to type. 
+    this.setState({
+        [name]: value })
 }
 
 // Need to handle the submit from Mern

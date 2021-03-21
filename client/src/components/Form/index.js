@@ -8,8 +8,8 @@ const Form = props => {
       <input style={{ textAlign: "left" }}
         onChange={props.handleInputChange}
         value={props.value}
-        name={props.title}
-        type={props.text}
+        name="title"
+        type="text"
         className="form-control"
         placeholder="Search for topic, book, author"
         id="title"
