@@ -5,11 +5,11 @@ const Form = props => {
   return (
     <form>
       <div className="form-group" style={{ textAlign: "center "}}>
-      <input 
+      <input style={{ textAlign: "left" }}
         onChange={props.handleInputChange}
         value={props.value}
-        name={title}
-        type={text}
+        name={props.title}
+        type={props.text}
         className="form-control"
         placeholder="Search for topic, book, author"
         id="title"
@@ -24,27 +24,4 @@ const Form = props => {
   )
 }
 
-export default FormBtn;
-// This file exports the Input, TextArea, and FormBtn components
-
-//export function Input(props) {
-  //return (
-  
-  //);
-//}
-
-//export function TextArea(props) {
-  //return (
-    //<div className="form-group">
-      //<textarea className="form-control" rows="20" {...props} />
-   // </div>
-  //);
-//}
-
-//export function FormBtn(props) {
-  //return (
-    //<button {...props} style={{ float: "right", marginBottom: 10 }} className="btn btn-success">
-      //{props.children}
-    //</button>
-  //);
-//}
+export default Form;
