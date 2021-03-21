@@ -16,8 +16,9 @@ if (process.env.NODE_ENV === "production") {
 // Define API routes here
 app.use(routes);
 
-// Connect to the Mongo DB
+//. Add code to connect to a MongoDB database named `googlebooks` using the mongoose npm package.
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks");
+
 // Send every other request to the React app
 
 
