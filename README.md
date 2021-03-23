@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# HW React Book Search
+Jonathan Gilbert
+https://github.com/JGilb28-7/Books-React-Search.git
+https://book-search-app-hw.herokuapp.com/
+
+### Resources used
+MERN Book Exercise
+https://github.com/annasuvvac/homework-21 - ref from the Search.js 
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
